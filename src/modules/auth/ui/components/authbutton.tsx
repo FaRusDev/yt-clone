@@ -11,6 +11,7 @@ export const AuthButton = () => {
     <>
       <SignedIn>
         <UserButton />
+        {/* Add Menu items for strudio and profile  */}
       </SignedIn>
       <SignedOut>
         <SignInButton mode="modal">
